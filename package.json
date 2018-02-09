@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "app ---",
+  "main": "webpack.config.js",
+  "scripts": {
+    "babel": "babel",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "bulma": "*",
+    "dot": "*",
+    "webpack": "*",
+    "whatwg-fetch": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "css-loader": "*",
+    "express": "*",
+    "extract-text-webpack-plugin": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-dev-server": "*"
+  }
+}

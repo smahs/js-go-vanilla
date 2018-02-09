@@ -1,0 +1,43 @@
+$body-color: transparentize(#000, 0.1)
+$content-color: transparentize(#fff, 0.1)
+$body-size: 16px !default 
+
+html
+  font-size: $body-size
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  min-width: 300px
+  overflow-x: hidden
+  overflow-y: scroll
+
+body
+  background-color: $body-color
+
+.header
+  color: $content-color
+  width: 80% 
+  margin-left: auto
+  margin-right: auto
+  display: flex
+  align-items: center
+
+.headerel
+  width: 100%
+
+.content
+  background-color: $content-color
+  height: 100%
+  width: 80%
+  margin-left: auto
+  margin-right: auto
+  padding-top: 50px
+  text-align: center
+ 
+.right
+  text-align: right
+
+.center
+  text-align: center
+
+a.github
+  color: $content-color
